@@ -1,0 +1,11 @@
+# Core scientific stack
+numpy==1.26.4
+pandas==2.2.2
+scikit-learn==1.4.2
+
+# NLP + embeddings
+transformers==4.40.1
+torch==2.2.2
+
+# Utilities
+regex==2024.4.16
