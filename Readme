@@ -1,0 +1,38 @@
+🎬🚀 Universal Movie Recommendation System — Now Powered by BERT!
+
+An end-to-end **content-based movie recommender** built with Python, TF-IDF, Cosine Similarity, and enhanced with **BERT embeddings** for deeper semantic understanding.  
+
+What if your recommender could *understand* movies, not just match keywords?  
+I built a **content-based movie recommender** that combines **TF-IDF** (fast, interpretable) with **BERT embeddings** (deep semantic understanding).  
+
+✅ Cleans messy text (punctuations, special chars, inconsistent casing)  
+✅ Dynamically adapts to any dataset (new columns auto-included)  
+✅ Handles 9,000+ movies with lightning-fast inference  
+✅ Runs seamlessly in **Google Colab**  
+✅ Switch between **TF-IDF baseline** and **BERT-powered recommendations**  
+
+**Demo:**  
+👉 Enter a movie name → Get 5 instant recommendations.  
+Example: *Avatar: Fire and Ash* → [Project Hail Mary, Mortal Kombat II, Spider-Man: Brand New Day…]
+
+This project isn’t just about movies — it’s a **production-grade ML pipeline** that can scale to books, products, songs, or any text-driven dataset.  
+
+Upload your dataset (CSV) with movie details — titles, genres, overviews — and get **instant recommendations**.
+
+## 🚀 Features
+- **Universal pipeline**: Works with any dataset, dynamically adapts to new text columns.
+- **Data cleaning**: Removes punctuation, special characters, trims spaces, and formats text consistently.
+- **Feature engineering**: Combines genres + overview (and any other text columns).
+- **Dual vectorization**:
+  - **TF-IDF** → lightweight, fast, interpretable.
+  - **BERT embeddings** → captures semantic meaning beyond keywords.
+- **Cosine similarity**: Finds the closest matches instantly.
+- **Recommendation function**: Enter a movie name → get top N similar movies.
+
+## 🛠️ Methodology
+1. **Data Cleaning** → Normalize text for consistency.
+2. **Feature Engineering** → Combine all text-based features.
+3. **Vectorization** → TF-IDF + BERT embeddings.
+4. **Similarity Computation** → Cosine similarity finds nearest neighbors.
+5. **Recommendation** → Instant results for any movie query.
+
